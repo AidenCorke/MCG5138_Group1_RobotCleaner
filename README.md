@@ -7,7 +7,7 @@ This repository contains the full ROS2 package from **Group 1** for the MCG5138 
 1. Clone this repository into your ROS 2 workspace's `src` folder:
    ```bash
    cd ~/ros2_ws/src
-   git clone https://github.com/AidenCorke/ROS2_Humble_TB3_CleanRoom.git
+   git clone https://github.com/AidenCorke/MCG5138_Group1_RobotCleaner.git
    ```
 2. Build the workspace:
    ```bash
