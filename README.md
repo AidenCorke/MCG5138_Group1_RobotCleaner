@@ -7,7 +7,7 @@ This repository contains the full ROS2 package from **Group 1** for the MCG5138 
 1. Clone this repository into your ROS 2 workspace's `src` folder:
    ```bash
    cd ~/ros2_ws/src
-   git clone https://github.com/AidenCorke/MCG5138_Group1_RobotCleaner.git
+   git clone https://github.com/AidenCorke/ROS2_Humble_TB3_CleanRoom.git
    ```
 2. Build the workspace:
    ```bash
@@ -51,3 +51,6 @@ To start a room cleaning operation you must launch teh appropriate client node w
 ros2 run clean_room clean_room_client <room_name>
 ```
 *room_name options: [bedroom, library, living_room, hallway, kitchen, pantry, dining_room]*
+
+## Notes
+To change between the default and tuned Nav2 parameters the nav2_params.yaml file will need to be swapped. For simplicity a copy of each are provided in the cleaner_bringup/config/ folder.
